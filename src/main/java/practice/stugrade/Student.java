@@ -1,4 +1,4 @@
-package practice;
+package practice.stugrade;
 
 public class Student {
 
