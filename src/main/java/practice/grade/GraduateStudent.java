@@ -1,10 +1,11 @@
-package practice.stugrade;
+package practice.grade;
 
 public class GraduateStudent extends Student {
+
     int thesis;
 
     public GraduateStudent(String name, String id, int math, int english, int thesis) {
-        super(name, id ,math, english);
+        //super(name, id ,math, english);
         this.thesis = thesis;
     }
 
@@ -12,4 +13,7 @@ public class GraduateStudent extends Student {
     public void print() {
         System.out.println(name + "\t" + id + "\t" + math + "\t" + english + "\t" + thesis);
     }
+
+
+
 }

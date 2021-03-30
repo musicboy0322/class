@@ -1,4 +1,4 @@
-package practice.stugrade;
+package practice.grade;
 
 public class School {
     public static void main(String[] args) {

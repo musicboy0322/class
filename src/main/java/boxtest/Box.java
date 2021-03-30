@@ -1,18 +1,28 @@
 package boxtest;
 
+import java.util.Scanner;
+
 public class Box {
 
-    int length;
-    int width;
-    int high;
+    public static void main(String[] args) {
 
-    public Box() {
-        super();
+        Box3 box3 = new Box3();
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please enter your length");
+        int len = scan.nextInt();
+        System.out.println("Please enter your width");
+        int wid = scan.nextInt();
+        System.out.println("Please enter your height");
+        int hei = scan.nextInt();
+
+
+
+
+
+
     }
-    public Box(int length, int width, int high) {
-        this.length = length;
-        this.width = width;
-        this.high = high;
-    }
+
+
 
 }
