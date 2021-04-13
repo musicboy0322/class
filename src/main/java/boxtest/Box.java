@@ -9,7 +9,6 @@ public class Box {
         Box3 box3 = new Box3();
         Box5 box5 = new Box5();
 
-
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter your length");
         int len = scan.nextInt();
