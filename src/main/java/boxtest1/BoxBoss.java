@@ -1,7 +1,5 @@
-package boxtest;
+package boxtest1;
 
-
-import java.util.Arrays;
 
 public abstract class BoxBoss {
 

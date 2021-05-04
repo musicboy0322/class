@@ -1,4 +1,4 @@
-package boxtest;
+package boxtest1;
 
 import java.util.Arrays;
 
